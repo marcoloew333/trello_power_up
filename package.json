@@ -2,11 +2,15 @@
   "name": "trello_power_up",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/html/index.html"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Marco Loew",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
 }
